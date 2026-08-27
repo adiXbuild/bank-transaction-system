@@ -1,0 +1,25 @@
+{
+  "name": "bank-transaction-system",
+  "version": "1.0.0",
+  "description": "A robust, backend-only banking and transaction system built with **(MEN) -MongoDB, Express, and  Node.js**.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adiXbuild/bank-transaction-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/adiXbuild/bank-transaction-system/issues"
+  },
+  "homepage": "https://github.com/adiXbuild/bank-transaction-system#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
