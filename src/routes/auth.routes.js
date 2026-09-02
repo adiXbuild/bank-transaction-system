@@ -2,7 +2,12 @@ const express = require("express")
 
 const router = express.Router()
 
-router.post("/register")
+//POST --> api/auth/register
+router.post("/register", authController.userRegisterController)
+
+router.post("/login", authController.userLoginController)
+
+
 
 
 
